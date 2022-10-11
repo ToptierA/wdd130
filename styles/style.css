@@ -212,6 +212,7 @@
 
 /* Finally the footer */
 .home-footer {
+  
   background-color: rgb(231, 231, 231);
   font-weight: bolder;
   margin-top: 48px;
@@ -219,6 +220,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.home-footer a:hover{
+  text-decoration: underline;
 }
 
 .social {
