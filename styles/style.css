@@ -10,6 +10,7 @@
 
  body {
   font-family: Roboto, sans-serif;
+  font-size: 22px;
  }
 
  #content {max-width: 1600;
@@ -35,6 +36,7 @@
 
 /* Making the logo smaller */
 .logo-link {
+  padding-top: 5px;
   width: 150px;
 }
 
@@ -52,7 +54,7 @@
 .nav-container a {
   display: block;
   text-decoration: none;
-  padding: .5em.5em;
+  padding: 35px;
   color: white;
   margin-right: 100px;
   font-size: larger;
@@ -81,6 +83,7 @@
 
 .hero-img {
   max-width: 100%;
+  box-sizing: border-box;
 }
 
 .hero-msg {
@@ -93,10 +96,13 @@
   top: 5%;
   left: 33%;
 }
+/*Let me separate the title and subtitle font sizes instead*/
+.home-title{text-shadow: 0 0 10px #000;
+ font-size: 2em;}
 
-.home-title,
 .home-subtitle {
     text-shadow: 0 0 10px #000;
+    font-size: 1em;
 }
 
 /* It's better to use a <button> tag instead of a <div> with an
@@ -131,6 +137,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 56px;
   margin-bottom: 50px;
+  
 }
 
 /* To reduce the size of the images, I need to reduce the sizes of
@@ -144,6 +151,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 200px 0;
 }
 
 .icon {
@@ -154,11 +162,14 @@
 
 .card-img {
   max-width: 100%;
+  border: 10px solid #69696a;
 }
 
 .msg {
+  
+  line-height: 1.5em;
   max-width: 100%;
-  position: relative
+  position: relative 
 }
 
 /* This part is for the join us portion of the page. */
@@ -186,7 +197,7 @@
   background-color: rgb(58, 57, 57);
   position: absolute;
   width: 40%;
-  padding: 30px;
+  padding: 15px 30px;
   line-height: 1.5rem;
   top: 25%;
   left: 55%;
@@ -202,7 +213,7 @@
   background-color: white;
   font-weight: bold;
   padding: 8px;
-  border-radius: 4px;
+  border-radius: 5px;
   transition: all 0.05s;
 }
 
