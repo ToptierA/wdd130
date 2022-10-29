@@ -38,6 +38,8 @@
 .logo-link {
   padding-top: 5px;
   width: 150px;
+  justify-self: center;
+  align-self: center;
 }
 
 .logo-link .logo {
@@ -48,7 +50,7 @@
 .nav-container {
   width: 70%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .nav-container a {
@@ -182,7 +184,7 @@
 }
 
 .mountains {
-  width: 66%;
+  width: 60%;
   position: absolute;
   top: 8%;
   left: 5%;
@@ -226,7 +228,7 @@
   
   background-color: rgb(231, 231, 231);
   font-weight: bolder;
-  margin-top: 48px;
+  margin-top: 200px;
   padding: 18px;
   display: flex;
   justify-content: space-between;
