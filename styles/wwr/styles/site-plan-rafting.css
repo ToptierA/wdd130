@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Roboto:wght@300&display=swap');
+
+body {
+    max-width: 960;
+    padding: 20px;
+    font-family: var(--paragraph-font);
+}
+
+:root {
+    --primary-color: #134865;
+    --secondary-color: #e0ce78;
+    --accent1-color: #0c347a;
+    --accent2-color: #000000; 
+
+    --heading font: 'DM Serif display', serif;
+    --paragraph font: 'Roboto' , serif;
+
+    --nav-background-color: #e0ce78;
+    --nav-link-colour: #000000;
+    --nav-hover-link-color: #134865;
+    --nav-hover-background-color: #0c347a;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white)
+}
+
+header {
+    padding: 20px; 
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display:block;
+    color: var(--nav-link-colour);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-hover-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-backgroun-color);
+}
