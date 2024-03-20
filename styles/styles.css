@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 nav {
     background-color: steelblue;
@@ -70,10 +70,6 @@ footer {
     color: #000;
 }
 
-aside {
-    width: 20em;
-    text-align: center;
-}
 
 aside h2 {
     position: absolute;
