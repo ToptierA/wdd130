@@ -23,6 +23,7 @@
     position: absolute;
     top: 0;
     left: 0;
+    
 }
 
 .hero img {
@@ -30,4 +31,21 @@
     width: 100%;
     height: auto;
     float: right;
+}
+
+h1,h2,h3 {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white)
+}
+
+p {
+    padding: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+article {
+    background-color: rgba(0,0,0,0,7);
 }
