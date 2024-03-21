@@ -30,7 +30,7 @@ body {
 
 /* Header styles */
 header {
-    background-color: #333;
+    background-color: #0c347a;
     color: #fff;
     padding: 20px;
     display: flex;
@@ -82,11 +82,18 @@ section h2 {
     margin-bottom: 10px;
 }
 
-section img {
+/* section img {
     width: 100%;
     margin-bottom: 10px;
-}
+} */
 
+section img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 50%;
+} 
 /* Footer styles */
 footer {
     background-color: #333;
@@ -102,6 +109,21 @@ footer p {
 .sociallinks a {
     margin-right: 10px;
 }
+
+/* Styles for the text between images */
+/* .image-text {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.image-text img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.image-text p {
+    font-style: italic;
+} */
 
 /* .hero {
     position:relative;
@@ -167,11 +189,10 @@ nav a:hover {
     background-color: var(--nav-hover-backgroun-color);
 }
 
-
-section img {
+ section img {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-right: 10px;
-} */
- */
+} 
+
