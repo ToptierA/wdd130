@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Roboto:wght@300&display=swap");
+
+:root {
+    --primary-color: #134865;
+    --secondary-color: #e0ce78;
+    --accent1-color: #0c347a;
+    --accent2-color: #000000; 
+
+    --heading-font: 'DM Serif display', serif;
+    --paragraph-font: 'Roboto' , serif;
+
+    --nav-background-color: #e0ce78;
+    --nav-link-colour: #000000;
+    --nav-hover-link-color: #134865;
+    --nav-hover-background-color: #0c347a;
+}
+
+.hero {
+    position:relative;
+}
+
+.hero h1, .hero article {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    float: right;
+}
