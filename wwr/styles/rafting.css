@@ -104,7 +104,8 @@ article p {
     width: 120px;
     height: 120px;
     top: 70%;  
-    left: 10%;
+    left: 60%;
+    
     /* mask-image: linear-gradient(to bottom, transparent, black); */
     
 } 
