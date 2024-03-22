@@ -30,8 +30,8 @@ body {
 
 /* Header styles */
 header {
-    background-color: #0c347a;
-    color: #fff;
+    background-color: #548df0;
+    color: #60f10c;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -43,7 +43,8 @@ header img {
 }
 
 nav a {
-    color: #fff;
+    color: #a8d20e;
+    background-color: #000000;
     text-decoration: none;
     margin-left: 20px;
 }
@@ -54,6 +55,7 @@ nav a {
 }
 
 .hero {
+    position: relative;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -66,13 +68,55 @@ nav a {
     margin-top: 20px;
 }
 
-article {
-    margin-top: 20px;
+.image-container {
+    position: relative;
+    display: flex;
+    align-items: center;
 }
 
-article p {
-    text-align: justify;
+
+h1 {
+    position:absolute;
+    top: 15%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    z-index: 1;
 }
+
+
+article p {
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(16, 5, 5);
+    max-width: 500px;
+    position: absolute;
+    top: 70%;
+    left: 20%;
+}
+
+ article img {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 70%;  
+    left: 10%;
+    mask-image: linear-gradient(to bottom, transparent, black);
+    
+} 
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
 
 section {
     margin-bottom: 20px;
@@ -92,7 +136,7 @@ section img {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
-    width: 50%;
+    width: 40%;
 } 
 /* Footer styles */
 footer {
