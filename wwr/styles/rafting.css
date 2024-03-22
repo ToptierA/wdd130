@@ -136,7 +136,7 @@ section img {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
-    width: 40%;
+    width: auto;
 } 
 /* Footer styles */
 footer {
