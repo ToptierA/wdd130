@@ -105,7 +105,7 @@ article p {
     height: 120px;
     top: 70%;  
     left: 10%;
-    mask-image: linear-gradient(to bottom, transparent, black);
+    /* mask-image: linear-gradient(to bottom, transparent, black); */
     
 } 
 
