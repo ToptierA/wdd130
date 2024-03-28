@@ -221,10 +221,12 @@ section img {
 }
 /* Footer styles */
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #140b0b;
+    color: #150707;
     padding: 20px;
     text-align: center;
+    display: flex;
+    justify-content: flex-end;
 }
 
 footer p {
