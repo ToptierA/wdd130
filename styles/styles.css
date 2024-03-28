@@ -46,7 +46,8 @@ p {
 
 
  main h1 {
-     max-width: 600px;
+     max-width: 800px;
+     font-size: x-large;
      color: steelblue;
      border-bottom-style: solid;
      margin-bottom: 10px;
