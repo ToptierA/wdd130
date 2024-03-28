@@ -221,7 +221,7 @@ section img {
 }
 /* Footer styles */
 footer {
-    background-color: #140b0b;
+    background-color: #f3f0f0;
     color: #150707;
     padding: 20px;
     text-align: center;
@@ -239,7 +239,7 @@ footer p {
     justify-content: flex-end;
     width: 30px;
     height: 30px;
-    margin-left: 10px;
+      margin-left: 10px;  
 }
 
 /* Styles for the text between images */
@@ -287,9 +287,6 @@ h1,h2,h3 {
     color: var(--headline-color-on-white)
 }
 
-p {
-    padding: 25px;
-}
 
 a {
     text-decoration: none;
