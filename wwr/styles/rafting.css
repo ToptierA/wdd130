@@ -36,15 +36,59 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    grid-template-columns: 120px 1fr 2fr;
+}
+
+/* Class Selectors */
+.horizon {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
 }
 
 header img {
-    width: 150px; /* Adjust as needed */
+    max-width: 100%;
+    margin: 0 0.25rem 0 1rem;
+	height: auto; /* Adjust as needed */
+    
 }
+
+
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+.navigation li {
+    flex: 1 1 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    
+    text-align: center;
+    
+}
+
+.navigation a {
+	display: block;
+	color: navy;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: #134865;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
 
 nav a {
     color: #a8d20e;
-    background-color: #000000;
+    background-color: #e0ce78;
     text-decoration: none;
     margin-left: 20px;
 }
@@ -62,6 +106,8 @@ nav a {
 
 .hero img {
     max-width: 100%;
+    display: block;
+    
 }
 
 .hero h1 {
@@ -125,6 +171,7 @@ section {
 
 section h2 {
     margin-bottom: 10px;
+    text-align: center;
 }
 
 /* section img {
@@ -139,6 +186,39 @@ section img {
     margin-bottom: 10px;
     width: auto;
 } 
+
+.spec {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.spec h2 {
+    position: absolute;
+  top: 157%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.spec figure {
+    margin-right: 20px;
+}
+
+.spec figure:last-child {
+    margin-right: 0;
+}
+
+.spec img {
+    width: 150px;
+    height: auto;
+    justify-content: space-between;
+
+}
+
+.spec figcaption {
+    text-align: center;
+}
 /* Footer styles */
 footer {
     background-color: #333;
@@ -153,6 +233,11 @@ footer p {
 
 .sociallinks a {
     margin-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
 }
 
 /* Styles for the text between images */
