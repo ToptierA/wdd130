@@ -1,0 +1,108 @@
+/* form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    margin-bottom: 10px;
+  }
+
+  button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: .75rem;
+    font-size: 1.2rem;}
+
+    button:hover {
+      background-color: darkgreen;
+  } */
+
+  body, h1, ol, li, form, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(16, 216, 5, 0.1);
+}
+
+form {
+  padding: 20px 0;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+ol li {
+  counter-increment: step-counter;
+  margin-bottom: 20px;
+}
+
+ol li::before {
+  content: counter(step-counter) ". ";
+  font-weight: bold;
+}
+
+/* li {
+  display: flex;
+  align-items: center;
+  
+} */
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea,
+select,
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #15c3ef;
+}
