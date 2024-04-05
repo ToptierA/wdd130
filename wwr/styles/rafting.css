@@ -88,7 +88,7 @@ nav {
 
 nav a {
     color: #a8d20e;
-    background-color: #e0ce78;
+    background-color: #f2f2f0;
     text-decoration: none;
     margin-left: 20px;
 }
@@ -169,7 +169,7 @@ section {
     margin-bottom: 20px;
 }
 
-section h2 {
+section h2, h3, p, li {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -192,6 +192,11 @@ section img {
     flex-direction: row;
     align-items: center;
 }
+.looks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 .spec h2 {
     position: absolute;
@@ -200,9 +205,23 @@ section img {
   transform: translateX(-50%);
   z-index: 1;
 }
+.looks h2 {
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1; 
+}
 
 .spec figure {
     margin-right: 20px;
+    display: inline-block;
+    margin: 0 10px;
+}
+.looks figure {
+    margin-right: 20px;
+    display: inline-block;
+    margin: 0 10px; 
 }
 
 .spec figure:last-child {
@@ -213,6 +232,12 @@ section img {
     width: 150px;
     height: auto;
     justify-content: space-between;
+}
+.looks img {
+    width: 150px;
+    height: auto;
+    justify-content: space-between;
+    place-items: center;
 
 }
 
@@ -240,6 +265,79 @@ footer p {
     width: 30px;
     height: 30px;
       margin-left: 10px;  
+}
+
+/* styling for contact us form */
+label, input, button, select, textarea {
+    font-family: Roboto, Arial, sans-serif;
+}
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+input[type="checkbox"]  {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+.form-item {
+    display:grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+        margin: 0.1rem 0;
+    
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr ;
+    margin: 0.5rem 0;
+}
+
+input,  textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+button:hover {
+    background-color: darkgreen;
 }
 
 /* Styles for the text between images */
