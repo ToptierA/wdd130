@@ -287,6 +287,10 @@ form {
     display: grid;
 }
 
+.move {
+    align-items: center;
+}
+
 fieldset {
     display: grid;
     grid-gap: 0.5rem;
