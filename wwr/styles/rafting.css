@@ -144,7 +144,7 @@ h1 {
     top: 5%;
     left: 40%;
     transform: translate(-50%,-50%);
-    color: #333333;
+    color: salmon;
     font-size: 32px;
     text-align: center;
     z-index: 1;
@@ -194,6 +194,8 @@ section h2, h3, p, li {
     text-align: center;
 }
 
+
+
 /* section img {
     width: 100%;
     margin-bottom: 10px;
@@ -220,7 +222,7 @@ section img {
 
 .spec h2 {
     position: absolute;
-  top: 157%;
+  top: 190%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
@@ -397,86 +399,89 @@ button:hover {
     background-color: #555;
 }
 
-/* Styles for the text between images */
-/* .image-text {
-    margin-bottom: 20px;
+/* Styles Homepage */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color:#000000;
+    color: #fff;
+    padding: 20px;
+}
+
+.victor {
     text-align: center;
 }
 
-.image-text img {
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-.image-text p {
-    font-style: italic;
-} */
-
-/* .hero {
-    position:relative;
-}
-
-.hero h1, .hero article {
+.victor h1 {
     position: absolute;
-    top: 0;
-    left: 0;
-    
+    top: 20%;
+    left: 50%;
+    background-color: #000000;
+    font-size: 2.5em;
+    color: salmon
 }
 
-.hero img {
-    display: block;
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+}
+
+nav ul li {
+    display: flex;
+    margin-left: 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+.newsletter, .cta {
+    text-align: center;
+}
+
+.newsletter form input[type="text"], .newsletter form input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.newsletter form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.grid-item img {
     max-width: 100%;
     height: auto;
-    float: right;
 }
-
-article img {
-    display: block;
-    max-width: 100%;
-    height: auto; 
-    float: left;
-}
-
-h1,h2,h3 {
-    font-family: var(--heading-font);
-    color: var(--headline-color-on-white)
-}
-
-
-a {
-    text-decoration: none;
-}
-
-article {
-    background-color: rgba(0,0,0,0,7);
-}
-
-nav {
-    background-color: var(--nav-background-color);
-    font-size: 1.2rem;
-    display: flex;
-}
-
-nav a {
-    display:block;
-    color: var(--nav-link-colour);
-    text-decoration: none;
-    padding: 1rem;
-}
-
-av a:link, nav a:visited {
-    color: var(--nav-hover-link-color);
-}
-
-nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-backgroun-color);
-}
-
- section img {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 10px;
-} 
 
